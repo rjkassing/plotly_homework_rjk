@@ -7,16 +7,6 @@ d3.json(url).then(function(data) {
   console.log(data);
 });
 
-//create dropdown
-
-
-// // This function is called when a dropdown menu item is selected
-// function initPlotly() {
-//   // Use D3 to select the dropdown menu
-
-//   array.forEach(element => {dropdownMenu.append("option").text(element).property("value",element)
-    
-//   });
   initPlotly()
 
 //2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
